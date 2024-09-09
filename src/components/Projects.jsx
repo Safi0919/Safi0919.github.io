@@ -128,7 +128,7 @@ const Projects = () => {
           some of my work, including brief descriptions and links to code
           repositories and live demos. They showcase my ability to tackle
           intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          oversee projects. Feel free to give a quick look to these amazing projects!
         </motion.p>
       </div>
 

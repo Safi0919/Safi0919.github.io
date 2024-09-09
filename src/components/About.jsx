@@ -35,14 +35,16 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
+      >
+        Hey there! My name is Safiullah Saif, a Software Engineering student at San Jose State
+        University, graduating in May 2025. I am deeply passionate about
+        technology and problem-solving, driven by a love for exploring
+        innovative solutions. My dedication to continuous learning and hands-on
+        projects fuels my ambition to make a meaningful impact through
+        technology. As I advance in my career, I am excited about tackling new
+        challenges and contributing to transformative projects.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
