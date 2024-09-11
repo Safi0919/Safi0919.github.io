@@ -70,18 +70,18 @@ const Experience = () => {
           ))}
           <VerticalTimelineElement
             contentStyle={{
-              background: '#eaeaec',
-              color: '#292929',
+              background: "#eaeaec",
+              color: "#292929",
               boxShadow:
-                'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
+                "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
             contentArrowStyle={{
-              borderRight: '7px solid  #232631',
+              borderRight: "7px solid  #232631",
             }}
-            iconStyle={{ background: '#333333' }}
+            iconStyle={{ background: "#333333" }}
             icon={
               <div className="flex justify-center items-center w-full h-full">
                 <img
@@ -90,7 +90,8 @@ const Experience = () => {
                   className="w-[45%] h-[45%] object-contain"
                 />
               </div>
-            }>
+            }
+          >
             <button
               className="live-demo flex justify-between 
               sm:text-[18px] text-[14px] text-timberWolf 
@@ -102,20 +103,21 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
-                  '_blank'
+                  "https://pdf.ac/3FT49k", //paste the link to your resume here
+                  "_blank"
                 )
               }
               onMouseOver={() => {
                 document
-                  .querySelector('.download-btn')
-                  .setAttribute('src', downloadHover);
+                  .querySelector(".download-btn")
+                  .setAttribute("src", downloadHover);
               }}
               onMouseOut={() => {
                 document
-                  .querySelector('.download-btn')
-                  .setAttribute('src', download);
-              }}>
+                  .querySelector(".download-btn")
+                  .setAttribute("src", download);
+              }}
+            >
               MY RESUME
               <img
                 src={download}
