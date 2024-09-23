@@ -43,6 +43,11 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
+import peer from './company/peer.png';
+import tau from "./company/tau.png";
+import writing from "./company/writing.png";
+import gov from "./company/gov.png";
+
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
@@ -96,4 +101,8 @@ export {
   dcc,
   kelhel,
   microverse,
+  peer,
+  tau,
+  writing,
+  gov
 };

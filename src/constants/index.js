@@ -27,7 +27,11 @@ import {
   dcc,
   kelhel,
   microverse,
-} from '../assets';
+  peer,
+  tau,
+  writing,
+  gov,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -124,147 +128,150 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    title: "Vice President",
+    company_name: "Tau Beta Pi",
+    icon: tau,
+    iconBg: "#333333",
+    date: "May 2024 - Present",
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    title: "Teaching Assistant, Data Structures and Algorithms",
+    company_name: "Peer Connections",
+    icon: peer,
+    iconBg: "#333333",
+    date: "Jan 2024 - Present",
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    title: "Director of Academic Affairs",
+    company_name: "Associated Students",
+    icon: gov,
+    iconBg: "#333333",
+    date: "Jun 2022 - Aug 2023",
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    title: "IT Website and Systems Coordinator",
+    company_name: "Writing Center",
+    icon: writing,
+    iconBg: "#333333",
+    date: "Jun 2022 - Aug 2022",
   },
 ];
 
+
 const projects = [
   {
-    id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    id: "project-1",
+    name: "Autonomous Navi. System",
+    description:
+      "A self-driving autonomous robot capable of navigation, mapping and environment analysis.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: "mongodb",
+        color: "green-text-gradient",
       },
       {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: "https://github.com/ROS-Mapping-Localiaztion-Enviroment/ROS_MLES",
+    demo: "https://github.com/ROS-Mapping-Localiaztion-Enviroment/ROS_MLES",
   },
   {
-    id: 'project-2',
-    name: 'Leaderboard',
+    id: "project-2",
+    name: "WorkMan",
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      "An application that lets users manage and edit their workout routines, and build a health community",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "scss",
+        color: "pink-text-gradient",
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: "https://github.com/shaqdeff/Leaderboard",
+    demo: "https://shaqdeff.github.io/Leaderboard/",
   },
   {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    id: "project-3",
+    name: "HeriTaste",
+    description:
+      "An application to preserve family recipes, foster connections through food, and celebrate the cultural heritage woven into each dish.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: "https://github.com/Safi0919/HeriTaste",
+    demo: "https://devpost.com/software/heritaste?ref_content=my-projects-tab&ref_feature=my_projects",
   },
   {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    id: "project-4",
+    name: "Study Hub",
+    description: `A collaborative platform tailored for students seeking a dedicated space to connect, collaborate, and share academic resources.`,
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: "https://github.com/Safi0919/StudyHub",
+    demo: "https://github.com/Safi0919/StudyHub",
   },
   {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    id: "project-5",
+    name: "Weather App",
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      "This app is designed to provide real-time weather updates for any location.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "css",
+        color: "pink-text-gradient",
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: "https://github.com/Safi0919/WeatherWebsite",
+    demo: "https://github.com/Safi0919/WeatherWebsite",
   },
 ];
 

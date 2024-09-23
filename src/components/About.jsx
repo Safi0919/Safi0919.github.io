@@ -38,7 +38,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
-        Hey there! My name is Safiullah Saif, a Software Engineering student at San Jose State
+        Hey there! My name is Safiullah Saif, a Fourth Year Software Engineering student at San Jose State
         University, graduating in May 2025. I am deeply passionate about
         technology and problem-solving, driven by a love for exploring
         innovative solutions. My dedication to continuous learning and hands-on
