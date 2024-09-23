@@ -7,7 +7,6 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import safi from './personal/safi.jpg';
-
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
